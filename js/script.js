@@ -96,4 +96,5 @@ function validateForm(siteName, siteUrl) {
         return false;
     }
     return true;
+    
 }
