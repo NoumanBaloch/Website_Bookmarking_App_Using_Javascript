@@ -43,13 +43,17 @@ body {
 
     background-color: #cccfd1;
     color: white;
+    float:right;
 }
+
 
 .btn-default:hover {
     background-color: #9d9fa0;
     color: white;
 }
-
+.btn-danger{
+    float: right;margin-right: 5px;
+}
 
 /* Custom page footer */
 
@@ -123,11 +127,21 @@ body {
 
         text-align: center;
     }
-
+    h2{
+        font-size: 20pt;
+    }
+    h3{
+        font-size: 1.5rem;
+        margin-top: -10px;
+        padding-bottom: 35px;
+    }
     .btn-default,
     .btn-danger {
-        width: 70px;
-        margin-top: 20px;
+        width: 65px;
+       font-size: 10pt;
+       text-align: center;
+       margin-top: 10px;
+       padding: 0px;
     }
     .btn-default:hover {}
 }
